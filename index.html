@@ -1,0 +1,39 @@
+<html>
+    <head>
+        <title>Login </title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+         <link rel="stylesheet" href="css/login.css">
+    </head>
+ 
+
+
+<body onload="getLocal() ">
+    <div class="card" >
+        <div class="header">
+          <h4>Antikka's Family</h4>    
+        
+        </div> 
+       <form action="home.html" method="get" name="form1" onsubmit="setlocal()">
+        <div class="container">
+           
+            <div class="name" > 
+          <label for="uname"><b>Username</b></label>
+          <input type="text" placeholder="Enter Username" id="uname" required  >
+           </div>
+            <div class="name">
+          <label for="psw"><b>Password</b></label>
+          <input type="password" placeholder="Enter Password" id="psw" required  >
+            </div>  
+          <button type="submit" id="btn">Login</button>
+          <label>
+            <input type="checkbox" checked="checked" id="remember"> Remember me
+          </label>
+        </div>
+      
+        
+      </form>
+    </div>
+    <script src="js/script.js"></script>
+</body>
+
+</html>

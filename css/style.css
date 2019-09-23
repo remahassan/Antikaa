@@ -1,0 +1,424 @@
+
+body ,ul
+{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: candara;
+}
+header
+{
+    padding-top: 20px;
+}
+
+section.top_panel
+{
+    width: 100%;
+    height:500px;
+    background-image: url("../images/pexels-photo-368893.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    
+}
+.container
+{
+    width: 1100px;
+    margin: auto;
+   
+}
+section.top_panel div.logo
+{
+    width: 50%;
+    float: left;
+    color: white;
+    font-weight: bold;
+    font-size: 0.9em;
+    text-transform: uppercase;
+}
+section.top_panel nav
+{
+    width: 50%;
+    float: left;
+}
+section.top_panel nav ul li
+{
+    display: inline-block;
+    padding-left: 15px;
+}
+section.top_panel nav ul li.welcome
+{
+    padding-left: 9%;
+}
+section.top_panel nav ul li a
+{
+    text-decoration: none;
+    color: white;
+    font-size: 14px;
+    text-transform: capitalize;
+}
+
+section.top_panel nav ul li a#log
+{
+     color: #044f7c;
+}
+
+section.top_panel nav ul li a#log:hover
+{
+    font-weight: normal;
+    cursor:default;
+}
+
+section.top_panel nav ul li a:hover
+{
+    font-weight: bold;
+    color: #044f7c;
+}
+section.top_panel nav ul li a.active
+{
+    font-weight: bold;
+    color: #044f7c;
+}
+
+
+
+section.top_panel .clear
+{
+    clear: both;
+}
+section.top_panel .header_info
+{
+    margin-top: 9%;
+}
+section.top_panel .header_info p:first-child
+{
+    color: white;
+    font-size: 1.7em;
+    font-weight: bolder;
+    text-align: right;
+   
+}
+
+section.top_panel .header_info p span
+{
+  transition: all 0.7s ease-in-out;  
+}
+section.top_panel .header_info p:last-child
+{
+    color: white;
+    font-size: 16px;
+    text-align: center;
+    
+}
+section.top_panel .header_info p a
+{
+        color: #2c87d0;
+}
+section.top_panel .header_info p:last-child:hover span
+{
+    display: inline-block;
+    transform: rotate(360deg);
+   
+}
+section.sub-menu 
+{
+    width: 100%;
+    height: 100px;
+    text-align: center;
+}
+section.sub-menu ul li a
+{
+    text-decoration: none;
+    color: #6d6d6d;
+    font-size: 14px;
+    text-transform: capitalize;
+}
+section.sub-menu ul li a.active
+{
+    font-weight: bold;
+    color: #044f7c;
+}
+
+
+section.sub-menu ul li
+{
+    display: inline-block;
+    padding-left: 15px;
+    padding-top: 20px;
+}
+section.all 
+{
+    width: 100%;
+    height: 800px;
+    padding: 15px 0 25px 0;
+    
+}
+section.all div.Stardust,
+section.all div.Coca,
+section.all div.ballet
+{
+    width: 30%;
+    float: left;
+    margin-left: 3%;
+    margin-bottom: 2%;
+    border: 1px solid #efefe2;
+    box-shadow: 0px 1px 5px 1px #f1e6e6;
+    border-radius: 2%;
+    line-height: 4px;
+    
+}
+section.all div.Stardust
+{
+    margin-left: 0;
+}
+
+section.all h5
+{
+    font-size: 14px;
+     color: #696a6f;
+    padding-left: 10px;
+    font-weight: 100;
+    
+}
+section.all h4
+{
+    font-size: 16px;
+    color: #191919;
+    padding-left: 10px;
+    
+}
+section.all span
+{
+    padding-left: 10px;
+}
+section.all span ,section.all p
+{
+    font-size: 14px;
+    color: #2b2b2b;
+}
+section.all span ,section.all p a
+{
+    color: #a4a4a4;
+    transition: all 0.7s ease-in-out;
+
+}
+section.all span ,section.all p:hover a
+{
+    color: #1c2ada;
+   
+}
+
+section.all div.Stardust img,
+section.all div.Coca img,
+section.all div.ballet img
+{
+    width: 100%;
+    border-radius: 2% 2% 0 0;
+    transition: all 0.7s ease-in-out;
+    
+}
+
+section.all div.Stardust div:hover img,
+section.all div.Coca div:hover img,
+section.all div.ballet div:hover img
+{
+    transform: scale(1.5);
+}
+section.all div.Stardust >div,
+section.all div.Coca >div,
+section.all div.ballet >div
+{
+    overflow: hidden;
+    position: relative;
+}
+
+section.all div.Stardust >div div.overlay,
+section.all div.Coca >div div.overlay,
+section.all div.ballet >div div.overlay
+{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.3);
+    border-radius: 2% 2% 0 0;
+    
+}
+section.all div.Stardust > div:hover div.overlay,
+section.all div.Coca >div:hover div.overlay,
+section.all div.ballet >div:hover div.overlay
+
+{
+    display: block;
+}
+section.middle
+{
+    width: 100%;
+    height: 530px;
+    background-image: url("../images/old-retro-antique-vintage-163194.jpg");
+    background-size: cover;
+     background-attachment: fixed;
+    
+}
+
+section.middle p
+{
+    font-size: 24px;
+    color: #2d2c2d;
+    padding-left: 10px;
+    font-weight: 200;
+    margin-top: -50px;
+  
+    
+}
+section.middle h4
+{
+    font-size: 60px;
+    color: #191919;
+    padding-left: 10px;
+    padding-top: 30px;
+    font-weight:900;
+    
+}
+section.statis
+{
+    width: 100%;
+    height:500px;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    background-color:#e0e8fb;
+    position: relative;
+    /*#e0e8fc*/
+}
+
+section.statis div.info
+{
+    width: 50%;
+    height: 500px;
+    float: left;
+    line-height: 0.3;
+    padding-top: 2%;
+
+        
+}
+
+section.statis div.numbers
+{
+    width: 50%;
+    height: 500px;
+    float: right;
+    background-image:url("../images/pexels-photo-590041.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    
+        
+}
+section.statis div.info h4
+{
+    font-size: x-large;
+    font-weight: 900;
+}
+
+section.statis div.info div.statistic_num
+{
+    width: 50%;
+    height: 200px;
+    /*margin-top: 29%;*/
+    margin-left: 15px;
+    
+}
+section.statis div.info div.statistic_num div.left
+{
+    width: 50%;
+    
+    font-size: 16px;
+    line-height: 0.2;
+    
+    
+}
+
+section.statis div.info div.statistic_num div.left p
+
+{
+    font-size: 90px;
+    font-weight: 600;
+    margin-bottom: 40px;
+    margin-top: 120px;
+}
+section.statis div.info div.statistic_num div.left span
+{
+        padding-left: 56px;
+        
+}
+section.learn 
+{
+    width: 100%;
+    height: 350px;
+    padding: 15px 0 0px 0;
+    
+    
+}
+section.learn  div.title
+{
+    width: 49%;
+    float: left;
+    font-size:20px;
+    border-right: 2px solid #DDD;
+    padding-right: 20px;
+    
+}
+section.learn  div.title .btn
+{
+    border: 0;
+    padding: 15px;
+    background-color: white;
+    border: 1px solid #DDD;
+    border-radius: 30px;
+    width: 200px;
+    text-transform: uppercase;
+    color: #565353;
+    outline: 0;
+    
+}
+section.learn  div.title .btn:hover
+{
+    background-color:#f5f3f3;
+    cursor: pointer;
+}
+section.learn  div.list
+{
+     width: 40%;
+    float: right;
+    font-size:16px;
+    font-weight: bold;
+    visibility: hidden;
+
+}
+
+section.learn  div.list i
+{
+    padding-right: 20px;
+    color: #adc4fb;
+}
+footer
+{
+    width: 100%;
+    height: 50px;
+    background-color: black;
+    margin-top: 3%;
+}
+footer p
+{
+    color: white;
+    font-family: none;
+    font-size: 14px;
+    float: left;
+}
+
+
+
+
+
+
+
+
